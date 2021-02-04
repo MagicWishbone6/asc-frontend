@@ -6,7 +6,8 @@ function Post(props) {
         <Card
         className="align-items-start mt-2 ">
             <Card.Header
-            className="pt-1 pb-1" style={{width: '100%'}}>
+            className="pt-1 pb-1" 
+            style={{width: '100%'}}>
                 <Card.Title className="mt-1 mb-2 float-left">
                     Post Title
                 </Card.Title>

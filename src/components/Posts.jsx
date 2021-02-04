@@ -4,7 +4,7 @@ import Post from './Post.jsx'
 
 function Posts(props) {
     return (
-        <Container>
+        <Container className="mt-3">
             <h6>Posts Component</h6>
             <Post />
         </Container>
