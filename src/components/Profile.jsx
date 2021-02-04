@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card';
+import ProfilePic from './ProfilePic.jsx';
 
 function Profile(props) {
     return (
@@ -17,7 +18,8 @@ function Profile(props) {
                 m={4}
                 l={4}
                 >
-                    Profile Picture Area</Col>
+                    <ProfilePic />
+                </Col>
                 <Col
                 xs={8}
                 s={8}

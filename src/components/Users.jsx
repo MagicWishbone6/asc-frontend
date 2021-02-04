@@ -11,10 +11,19 @@ function Users(props) {
             className="align-items-start">
                 <Card.Header
                 className="d-inline-flex"
-                style={{width: '100%'}}>
-                    <a href="/">
-                        User Username
-                    </a>
+                style={{
+                    width: '100%'
+                }}>
+                    <Card.Title
+                    className="mb-1">
+                        <a 
+                        href="/"
+                        style={{
+                            color: 'black'
+                        }}>
+                            User Username
+                        </a>
+                    </Card.Title>
                 </Card.Header>
                 <Card.Body>
                     <Card.Text>

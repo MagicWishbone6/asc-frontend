@@ -6,6 +6,7 @@ import CreateProfile from './CreateProfile.jsx'
 import Profile from './Profile.jsx'
 import User from './User.jsx'
 import Users from './Users.jsx'
+import CreatePost from './CreatePost.jsx'
 
 function Home(props) {
     return (
@@ -16,7 +17,8 @@ function Home(props) {
             <Users />
             <Posts />
             <Login />
-            <CreateProfile />           
+            <CreateProfile />
+            <CreatePost />           
         </Container>
     );
 }
