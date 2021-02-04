@@ -27,7 +27,9 @@ function Profile(props) {
                 l={8}>
                     <Card>
                         <Card.Body>
-                            <Card.Text>User's Profile Bio</Card.Text>
+                            <Card.Text>
+                                User's Profile Bio
+                            </Card.Text>
                         </Card.Body>
                     </Card>
                 </Col>
