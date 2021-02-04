@@ -1,12 +1,16 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container'
 import Posts from './Posts.jsx'
+import Login from './Login.jsx'
+import CreateProfile from './CreateProfile.jsx'
 
 function Home(props) {
     return (
-        <Container>
+        <Container className="mt-4">
             <h5>Home Component</h5>
-            <Posts />           
+            <Posts />
+            <Login />
+            <CreateProfile />           
         </Container>
     );
 }

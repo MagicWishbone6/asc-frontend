@@ -4,14 +4,14 @@ import Card from 'react-bootstrap/Card'
 function Post(props) {
     return (
         <Card
-        className="align-items-start mt-2">
+        className="align-items-start mt-2 ">
             <Card.Header
-            className="pt-1 pb-1">
-                <Card.Title className="mt-1 mb-2">
+            className="pt-1 pb-1" style={{width: '100%'}}>
+                <Card.Title className="mt-1 mb-2 float-left">
                     Post Title
                 </Card.Title>
                 <Card.Subtitle className="mb-1">
-                    <a href="/" className="text-muted">
+                    <a href="/" className="text-muted float-right mt-2">
                      Author
                     </a>
                 </Card.Subtitle>
