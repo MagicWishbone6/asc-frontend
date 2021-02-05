@@ -7,17 +7,18 @@ import Profile from './Profile.jsx'
 import User from './User.jsx'
 import Users from './Users.jsx'
 import CreatePost from './CreatePost.jsx'
+import { Link, Route } from 'react-router-dom'
 
 function Home(props) {
-    const [componentVisibility, setComponentVisibility] = useState({
-        Profile: false,
-        User: false,
-        Users: false,
-        Posts: false,
-        Login: true,
-        CreateProfile: false,
-        CreatePost: false
-    })
+    // const [componentVisibility, setComponentVisibility] = useState({
+    //     Profile: false,
+    //     User: false,
+    //     Users: false,
+    //     Posts: false,
+    //     Login: true,
+    //     CreateProfile: false,
+    //     CreatePost: false
+    // })
 
     // const renderComponent = (compName) => {
     //     if (componentVisibility[compName] === true) {
@@ -29,6 +30,30 @@ function Home(props) {
         <Container 
         className="mt-4 pb-4">
             <h5>Home Component</h5>
+            <div>
+                <Link to="/users">
+                    Users
+                </Link>
+                <Link to="/posts">
+                    Posts
+                </Link>
+                <Link to="/new-post">
+                    Create New Post
+                </Link>
+                <Link to="/new-profile">
+                    Create Profile
+                </Link>
+                <Link to="/login">
+                    Login
+                </Link>
+            </div>
+            <div>
+                <Route path="/users" component={Users} />
+                <Route path="/posts" component={Posts} />
+                <Route path="/new-post" component={CreatePost} />
+                <Route path="/new-profile" component={CreateProfile} />
+                <Route path="/Login" component={Login} />
+            </div>
             {/* {renderComponent(`Profile`)}
             {renderComponent(`User`)}
             {renderComponent(`Users`)}
@@ -36,13 +61,13 @@ function Home(props) {
             {renderComponent(`Login`)}
             {renderComponent(`CreateProfile`)}
             {renderComponent(`CreatePost`)} */}
-            <Profile />
+            {/* <Profile />
             <User />
             <Users />
             <Posts />
             <Login />
             <CreateProfile />
-            <CreatePost />           
+            <CreatePost />            */}
         </Container>
     );
 }

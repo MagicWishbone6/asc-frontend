@@ -15,3 +15,6 @@
   background-color: #291e82;
 }
 
+.nav-link:hover {
+  color: #CB05A3 !important;
+}
