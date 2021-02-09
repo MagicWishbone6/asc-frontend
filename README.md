@@ -19,12 +19,12 @@ The After School Club is a social networking application designed to give the st
 
 ### Current Features
 In this application users are given a series of different features. Some user features include:
-Users are able to login into their "After School Club" account". Users may also post a status to their profile bioas well as a default post to the post title panel which displays all posts for the user. 
+Users are able to login into their "After School Club" account". Users may also post a status to their profile bio well as a the ability to post to the post panel which displays all previous posts for the user. 
 
-<img src=“./project3.png”>
+<img src = “screenshots/project3.PNG”>
 
 ### Backend Collections
-Our backend features the following collections:
+The backend features the following collections:
 
 * Users
     * Email
